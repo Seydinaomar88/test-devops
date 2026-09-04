@@ -28,3 +28,5 @@ jobs:
 
       - name: Construire l'image Docker
         run: docker build -t attelier-devops .
+      - name: Run lint
+        run: npm run lint  
